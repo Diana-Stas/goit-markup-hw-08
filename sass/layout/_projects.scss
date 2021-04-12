@@ -66,9 +66,12 @@
     flex-wrap: wrap;
   }
   .projects-list__link {
+    display: flex;
+    flex-direction: column;
     color: var(--main-font);
   }
   .projects-list__item {
+    display: flex;
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc(100% / 2 - 30px);
@@ -79,6 +82,7 @@
     }
   }
   .projects-list__content-wrapper {
+    flex-grow: 1;
     padding: 20px 24px;
     border: 1px solid var(--projects-border-bottom);
     border-top: none;
