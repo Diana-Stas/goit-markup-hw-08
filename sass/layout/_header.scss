@@ -19,7 +19,6 @@
   .burger-btn {
     background-color: transparent;
     border: none;
-    padding: 0;
     width: 40px;
     height: 40px;
 
@@ -111,7 +110,7 @@
 }
 .social-networks {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 64px;
 
   &__link {
